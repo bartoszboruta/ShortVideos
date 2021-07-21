@@ -7,13 +7,14 @@ module.exports = {
         root: ['.'],
         extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json'],
         alias: {
-          'components': './src/components',
-          'screens': './src/screens',
-          'theme': './src/theme',
-          'utils': './src/utils',
-          'types': './src/types',
+          components: './src/components',
+          screens: './src/screens',
+          theme: './src/theme',
+          utils: './src/utils',
+          types: './src/types',
+          assets: './src/assets',
         },
       },
-    ]
-]
+    ],
+  ],
 };
